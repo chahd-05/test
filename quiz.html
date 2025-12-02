@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="question" type="text" placeholder="question">
+    <input id="answer" type="text" placeholder="answer">
+    <button>add flashcard</button>
+    <div id="list"></div>
+
+    <script>
+        const button = document.getElementById("button");
+        const quesinput = document.getElementById("question");
+        const answinput = document.getElementById("answer");
+        const store = document.getElementById("list");
+
+        button.addEventListener("click" ,() =>{
+
+            const question = quesinput.value.trim();
+            const answer = answinput.value.trim();
+            const str = store.value;
+        })
+
+    </script>
+</body>
+
+
